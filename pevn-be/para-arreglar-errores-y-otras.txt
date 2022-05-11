@@ -20,3 +20,18 @@ database: 'd3i2cfoh9ce702',
         rejectUnauthorized: false,
     },
 
+
+
+heroku
+
+npm install -g heroku
+
+
+prueba subir heroku
+
+ultimos pasos:
+git init
+git add .
+git commit -m "My first commit"
+""heroku create"""
+git push heroku master
