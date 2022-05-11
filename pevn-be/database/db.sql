@@ -1,5 +1,7 @@
 CREATE DATABASE pevn;
 
+\c pevn
+
 CREATE TABLE professor (
     id_p SERIAL PRIMARY KEY, 
     p_name TEXT NOT NULL, 

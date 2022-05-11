@@ -1,3 +1,22 @@
 "babel-node" no se reconoce como un comando interno o externo
 
 usar el comando : npm i -g @babel/node
+
+
+psql
+
+1 instalar el psql
+2- arreglar el path en entorno de variables agregar "C:\Program Files\PostgreSQL\10\bin"
+3 - en visual : psql postgres postgres , poner contraseña
+
+
+----keys. js
+
+agregar: (debajo de database)
+
+database: 'd3i2cfoh9ce702',
+
+    ssl: {
+        rejectUnauthorized: false,
+    },
+
